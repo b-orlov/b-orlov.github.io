@@ -3,7 +3,7 @@ $(document).ready(function() {
         API = 'http://pokeapi.co',
         PREV,
         NEXT;
-
+        
     chunk('/api/v1/pokemon/?limit=9&offset=0');
     $('.next').on('click', function(){
         chunk(NEXT);
@@ -36,9 +36,8 @@ $(document).ready(function() {
     };
 
     function click(event) {
-        var dataUri = $(event.target).data('uri');
+        var dataUri = $(event.target).data('uri') || $(event.target).parent('.element').data('uri');
         $.get(API + dataUri, function(result) {
-            console.log(result);
             var type = '';
             for (var j = 0; j < result.types.length; j++){
                 type += '<span class="' + result.types[j].name + '">' + result.types[j].name + '</span> '
