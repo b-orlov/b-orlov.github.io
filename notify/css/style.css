@@ -29,7 +29,7 @@ h3, h4{
 .top-panel{
     color: #FFF;
     position: relative;
-    background: url(/img/background-img.png) no-repeat fixed;
+    background: url(../img/background-img.png) no-repeat fixed;
     background-size: cover;
     padding-bottom: 0;
 }
