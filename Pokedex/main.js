@@ -2,7 +2,7 @@ $(document).ready(function() {
     var
         API = 'http://pokeapi.co',
         PREV,
-        NEXT;
+        NEXT = '/api/v1/pokemon/?limit=9&offset=0';
 
     chunk('/api/v1/pokemon/?limit=9&offset=0');
     $('.next').on('click', function(){
