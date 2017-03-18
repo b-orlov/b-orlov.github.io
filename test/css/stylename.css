@@ -1,0 +1,21 @@
+/* font-family: "GothamProRegular"; */
+@font-face {
+    font-family: "GothamProRegular";
+    src: url("../fonts/GothamProRegular/GothamProRegular.eot");
+    src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+    url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "RoundsBlack"; */
+@font-face {
+    font-family: "RoundsBlack";
+    src: url("../fonts/RoundsBlack/RoundsBlack.eot");
+    src: url("../fonts/RoundsBlack/RoundsBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RoundsBlack/RoundsBlack.woff") format("woff"),
+    url("../fonts/RoundsBlack/RoundsBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
