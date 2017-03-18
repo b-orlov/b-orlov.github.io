@@ -7,6 +7,7 @@
   display: block; }
 .container .content {
   background: url("../img/bg.png") no-repeat 50% 50%;
+  background-size: cover;
   text-align: center; }
   .container .content img {
     padding-top: 26px;
@@ -22,11 +23,11 @@
     margin-bottom: 40px; }
   .container .content input {
     border: none;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "GothamProRegular";
     width: 280px;
-    padding-top: 16px;
-    padding-bottom: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 20px;
     border-radius: 4px;
     box-shadow: 0 0 10px 0 rgba(0, 32, 52, 0.1);
@@ -47,5 +48,16 @@
     font-family: "GothamProRegular";
     font-size: 16px;
     padding-bottom: 40px; }
+
+@media screen and (min-width: 1025px) {
+  .container .head img {
+    width: 100px; }
+  .container .content img {
+    width: 110px;
+    padding-top: 27px; }
+  .container .content h2 {
+    font-size: 20px; }
+  .container .content h3 {
+    font-size: 18px; } }
 
 /*# sourceMappingURL=style.css.map */
